@@ -1,0 +1,46 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    overflow-y:hidden;
+}
+
+button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: tomato;
+    border: .125rem solid #5D0E00;
+    transition: background-color .25s ease-in;
+}
+
+button:hover, button:active {
+    background-color: #47FF63;
+}
+
+h1 {
+    color: #2F0700;
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 400;
+    margin: 0 0 3rem;
+    text-align: center;
+    
+}
+
+#emoji1, #emoji2 {
+    display: inline-block;
+    transition-duration: 1s;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
